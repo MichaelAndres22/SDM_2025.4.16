@@ -35,7 +35,7 @@ Incluye **login, bootstrap, migraciones automáticas y un generador de CRUD**.
 2. Configura tu archivo `.env` con los datos de la base de datos (usa phpMyAdmin para crearla).  
 3. Ejecuta las migraciones para crear las tablas necesarias.  
 4. Instala Bootstrap y la autenticación (login y registro).  
-5. Instala un generador de CRUD para crear la tabla de libros.  
+5. Crea el CRUD para crear la tabla de libros.  
 6. Protege las rutas para que solo usuarios logueados puedan ver los libros.  
 7. Agrega un enlace directo a la sección de libros en la barra de navegación.
 
@@ -78,6 +78,6 @@ Aquí tienes tres formas simples de publicar tu proyecto:
 
 ## 🙌 Autor
 
-Hecho con ❤️ por [TuNombre]  
+Hecho con ❤️ por Michael Pillaga  
 ¡Si te fue útil, dale ⭐ al repo!
 
