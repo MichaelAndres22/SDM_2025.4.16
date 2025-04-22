@@ -56,12 +56,12 @@ Incluye **login, bootstrap, migraciones automáticas y un generador de CRUD**.
 5. **Genera la clave de la aplicación:**
   Ejecuta el siguiente comando para generar la clave de la aplicación:
 
-  php artisan key:generate
+    php artisan key:generate
 
 6. **Ejecuta las migraciones:**
   Corre las migraciones para crear las tablas necesarias en tu base de datos:
 
-  php artisan migrate
+   php artisan migrate
 
 
 👀 Ver la app en tu navegador
@@ -72,6 +72,3 @@ Accede desde:
 Hecho con ❤️ por Michael Pillaga
 ¡Si te fue útil, dale ⭐ al repo!
 
-
-
-Este es el contenido completo en Markdown, listo para ser utilizado en tu proyecto o repositorio. ¿Te 
