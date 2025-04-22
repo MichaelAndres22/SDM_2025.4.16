@@ -1,83 +1,62 @@
-# SDM_2025.4.16
-# 📚 Librería Laravel CRUD
+SDM_2025.4.16
+📚 Librería Laravel CRUD
+¡Bienvenido a tu sistema de gestión de libros con Laravel!
+Esta aplicación permite a los usuarios autenticados crear, ver, editar y eliminar libros fácilmente.
+Incluye login, bootstrap, migraciones automáticas y un generador de CRUD.
 
-¡Bienvenido a tu sistema de gestión de libros con Laravel!  
-Esta aplicación permite a los usuarios autenticados **crear, ver, editar y eliminar libros** fácilmente.  
-Incluye **login, bootstrap, migraciones automáticas y un generador de CRUD**.
-
----
-
-## ✨ Características
-
-✅ Registro/Login de usuarios  
-✅ CRUD completo de libros  
-✅ Estilos con Bootstrap  
-✅ Protección con middleware (solo usuarios logueados pueden ver los libros)  
-✅ Panel de navegación dinámico según sesión  
+✨ Características
+✅ Registro/Login de usuarios
+✅ CRUD completo de libros
+✅ Estilos con Bootstrap
+✅ Protección con middleware (solo usuarios logueados pueden ver los libros)
+✅ Panel de navegación dinámico según sesión
 ✅ Instalación sencilla paso a paso
 
----
+⚙️ Requisitos
+PHP 8.x
+Composer
+MySQL (XAMPP, Laragon, etc)
+Node.js y NPM
+Laravel 10+
+Navegador moderno (Chrome, Firefox, etc)
 
-## ⚙️ Requisitos
+🛠️ Instalación rápida
+Clona el proyecto desde GitHub:
+Usa el siguiente comando para clonar el repositorio:
+git clone https://github.com/tuusuario/libreria-laravel.git
 
-- PHP 8.x  
-- Composer  
-- MySQL (XAMPP, Laragon, etc)  
-- Node.js y NPM  
-- Laravel 10+  
-- Navegador moderno (Chrome, Firefox, etc)
 
----
+Instala las dependencias de Composer:
+Ejecuta el siguiente comando en la raíz del proyecto para instalar las dependencias de Laravel:
+composer install
 
-## 🛠️ Instalación rápida
 
-1. Crea un nuevo proyecto Laravel.  
-2. Configura tu archivo `.env` con los datos de la base de datos (usa phpMyAdmin para crearla).  
-3. Ejecuta las migraciones para crear las tablas necesarias.  
-4. Instala Bootstrap y la autenticación (login y registro).  
-5. Crea el CRUD para crear la tabla de libros.  
-6. Protege las rutas para que solo usuarios logueados puedan ver los libros.  
-7. Agrega un enlace directo a la sección de libros en la barra de navegación.
+Instala las dependencias de Node.js y compila los assets:
+Ejecuta los siguientes comandos para instalar las dependencias de NPM y compilar los assets con Laravel Mix:
+npm install
+npm run dev
 
----
 
-## 👀 Ver la app en tu navegador
+Configura el archivo .env:
+Crea un archivo .env copiando el archivo .env.example:
+cp .env.example .env
+Luego, configura los detalles de la base de datos (por ejemplo, usando phpMyAdmin o tu gestor favorito).
 
-Accede desde:  
-📍 **http://localhost/libreria/public/libros**
 
----
+Genera la clave de la aplicación:
+Ejecuta el siguiente comando para generar la clave de la aplicación:
+php artisan key:generate
 
-## 🚀 ¿Cómo desplegar esta app?
 
-Aquí tienes tres formas simples de publicar tu proyecto:
+Ejecuta las migraciones:
+Corre las migraciones para crear las tablas necesarias en tu base de datos:
+php artisan migrate
 
-### 🟢 Opción 1: Laravel Forge
 
-- Plataforma oficial de Laravel para despliegues profesionales.
-- Conecta tu repositorio y servidor fácilmente (DigitalOcean, Linode, etc).
-- Hace el setup completo automáticamente.
+👀 Ver la app en tu navegador
+Accede desde:
+📍 http://localhost/libreria/public/libros
 
-### 🔵 Opción 2: Hosting compartido (Hostinger, InfinityFree, 000Webhost)
-
-- Comprime tu proyecto (excepto la carpeta `vendor`).
-- Súbelo al servidor en la carpeta `/public_html`.
-- Apunta tu dominio a la carpeta `/public`.
-- Ejecuta instalación de dependencias desde el panel o SSH.
-- Configura correctamente el archivo `.env`.
-
-### 🔴 Opción 3: Desplegar gratis con Render o Railway
-
-- Sube tu proyecto a GitHub.
-- Crea una cuenta en Render o Railway.
-- Selecciona “Deploy from GitHub”.
-- Añade las variables de entorno requeridas.
-- Obtendrás una URL pública para compartir tu proyecto.
-
----
-
-## 🙌 Autor
-
-Hecho con ❤️ por Michael Pillaga  
+🙌 Autor
+Hecho con ❤️ por Michael Pillaga
 ¡Si te fue útil, dale ⭐ al repo!
-
