@@ -34,7 +34,7 @@ Incluye **login, bootstrap, migraciones automáticas y un generador de CRUD**.
 1. **Clona el proyecto desde GitHub:**  
    Usa el siguiente comando para clonar el repositorio:  
    
-   git clone https://github.com/tuusuario/libreria-laravel.git
+   git clone (url del repositorio)
 
 2. **Instala las dependencias de Composer:** 
     Ejecuta el siguiente comando en la raíz del proyecto para instalar las dependencias de Laravel:
